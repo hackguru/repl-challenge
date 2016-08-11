@@ -1,9 +1,9 @@
 # repl-challenge
 
-This is a solution to following challenge. This solution is "quick and dirty" meaning it only meets the acceptance criteria but it is not fully thought out. Area for improvement:
+This is a solution to following challenge. This solution is "quick and dirty" meaning it only meets the acceptance criteria but it is not fully thought out. Areas for improvement:
 * Design - it is not ready to be used by client in anyway
 * Security - this code is very vulnerable as it runs any function on server
-* Lack of support - JS code is developed to be run only new browser. For example this code for XHR on client wont work on old IEs
+* Lack of support - JS code is developed to be run only new browser. For example, code for XHR on client wont work on old IEs
 * No Tests - in actual production environment we need tests - or better yet start with tests
 * No specific API convention has been followed
 
