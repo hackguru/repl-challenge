@@ -1,6 +1,21 @@
 # repl-challenge
 
-Fork this repo and implement the following challenge, modifying this README with full instructions on how to run and view your solution.
+This is a solution to following challenge. This solution is "quick and dirty" meaning it only meets the acceptance criteria but it is not fully thought out. Area for improvement:
+* Design - it is not ready to be used by client in anyway
+* Security - this code is very vulnerable as it runs any function on server
+* Lack of support - JS code is developed to be run only new browser. For example this code for XHR on client wont work on old IEs
+* No Tests - in actual production environment we need tests - or better yet start with tests
+* No specific API convention has been followed
+
+## How to run?
+
+You need node.js.
+To start the server run:
+```bash
+node server.js
+```
+
+Index page is on http://localhost:3000/
 
 ## Challenge
 
