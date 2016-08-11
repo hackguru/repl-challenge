@@ -19,7 +19,5 @@ In a language of your choosing, build a web interface to write and execute code 
 
 ### Bonus (Required for Sr. Candidates)
 
-- In the interface, include instructions for hitting an API endpoint that executes the user supplied `run()` function at localhost. 
-- Implement this functionality. If it helps, an additional button can be added to the interface to `deploy` the code as an API.
-
-
+- In the interface, add a `deploy` button next to the `run` button that creates a fixed endpoint that can be called repeatedly with other params via HTTP
+- Include instructions within the interface for hitting the API endpoint that executes the user supplied `run()` function and how to pass in any arguments
